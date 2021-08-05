@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+nav {
+    height: 60px;
+    padding-top: 20px;
+    background-color: cadetblue;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+section {
+    height: 300px;
+    padding: 20px 0;
+    background-color: coral;
+}
+
+aside {
+    display: flex;
+}
+
+section p {
+    width: 960px;
+    margin: 0;
+    padding: 10px;
+    height: 210px;
+}
+
+footer {
+    padding: 8px;
+    background-color: darkgoldenrod;
+}
