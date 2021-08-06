@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+#logo {
+    object-fit: cover;
+    height: 60px;
+}
+
+header nav {
+    margin-right: 1000px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    padding: 0px 50px;
+}
+
+#visual {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    display: flex;
+    animation: visual 8s linear infinite;
+    width: 400%;
+}
+
+.visual {
+    width: 25%;
+    
+}
+
+.visual img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+@keyframes visual {
+    0%{left: 0px}
+    17%{left: 0px}
+    34%{left: -100%}
+    50%{left: -100%}
+    67%{left: -200%}
+    84%{left: -200%}
+    100%{left: -300%}
+}
+
+#menu {
+    height: 1300px;
+    margin: 100px;
+}
+
+.menu-box {
+    height: 50px;
+    background-color: #ede8e3;
+    color: #c20f2f;
+    text-align: center;
+}
+
+.menu-group {
+    margin: 50px;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-img img {
+    height: 250px;
+}
+
+.menu-font {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #575757;
+    color: #afaeb1;
+}
